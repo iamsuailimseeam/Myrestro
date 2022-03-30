@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ******************NAV BAR************************* */
+.navbar{
+    width: 100%;
+    height:12vh;
+    background-color: #201357;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    position: fixed;
+    z-index: 1;
+    overflow:hidden;
+}
+.navbar ul .menu-copy{
+    display: none;
+    z-index: 1;
+}
+label.website-name{
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    width: 35%;
+    float: left;
+    margin-left: 30px;
+}
+.navbar ul{
+    float: right;
+    padding: 20px;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px ;
+    transition: 0.5s;
+}
+.navbar a:hover{
+    background-color: #2548b9;
+    font-size: 18px;
+}
+
+.chkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 60px;
+    padding-right:20px ;
+    display: none;
+    
+}
+#check{
+    display: none;
+    
+}
+
+.picture{
+    position: relative;
+    text-align: center;
+    height: 100vh;
+    z-index: 0;
+}
+.pic1{
+    width: 100%;
+    height: 100vh;
+    opacity: 85%;
+    z-index: 0;
+}
+/* .pic1:hover{
+    opacity: 100%;
+} */
+.img-txt{
+    color: #ffffff;
+    position: absolute;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+.container-1{
+    position: relative;
+    text-align: center;
+    margin: 0;
+    z-index: 0;
+    height: 100vh;
+}
+.container-1 img{
+    width: 100%;
+    height: 100vh;
+    opacity: 80%;
+}
+
+.container-1 .txt-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    padding: 10px;
+    background-color: rgba(54, 56, 56, 0.329);
+    padding: 70px 20px;
+    border-radius: 35px;
+    border: 5px solid #ffffff;
+    
+}
+.container-1 .txt-2 h1{
+    font-size: 60px;
+    color: white;
+}
+.container-1 .txt-2 p{
+    font-size: 30px;
+}
+.container-1 .txt-2 a{
+    background-color: #adb5b900;
+    text-decoration: none;
+    padding: 20px 55px;
+    border-radius: 15px;
+    color: white;
+    border: 3px solid #ffffff;
+
+}
+.container-1 .txt-2 a:hover{
+    background-color: darkblue;
+    transition: 1.5s;
+}
+
+
+
+
+
+
+.container-2{
+    position: relative;
+    text-align: center;
+    height: 100vh;
+}
+.container-2 img{
+    width: 100%;
+    height: 100vh;
+    opacity: 80%;
+}
+.container-2 .txt-3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+.container-2 .txt-3 h1{
+    color: #ffffff;
+    font-size: 50px;
+}
+.container-2 .txt-3 h1:hover{
+    color: #5c5c5c;
+    transition: 1.5s;
+}
+
+
+/**Footer**/
+
+/* Footer */
+/* New design */
+.footer{
+    width: 100%;
+    height: 80vh;
+    background-color: #646464;
+    bottom: 0px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.footer .footer-head{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 0px 10px 0px;
+    /* border: 2px solid black; */
+}
+
+/* Footer-Main */
+.footer-main{
+    height: auto;
+}
+
+/* Footer-Left */
+.footer-left{
+    float: left;
+    width: 50%;
+    padding: 0px 0px 0px 10px;
+}
+
+.footer-description{
+    color: white;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 20px 0px 0px 0px;
+}
+
+.footer-left .useful-links {
+    
+}
+.footer-left .useful-links h3{
+    color: white;
+    padding: 25px 0px 0px 0px;
+    font-size: 40px;
+}
+.footer-left .useful-links ul{
+    list-style: none;
+}
+.footer-left .useful-links ul a{
+    list-style: none;
+    text-decoration: none;
+    color: whitesmoke;
+    line-height: 30px;
+    font-size: 20px;
+}
+.footer-left .useful-links ul li:hover{
+    transition: 1s;
+    transform: translateX(10px);
+    color: #bbbbbb;
+    cursor: pointer;
+}
+
+
+/* Footer Right */
+.footer-right{
+    float: right;
+    width: 50%;
+    padding-left: 20px;
+    color: white;
+}
+.footer-right h1{
+    
+}
+.footer-right .address{
+    padding: 20px 0px 0px 0px;
+}
+.footer-right .cellAndEmail{
+    padding: 20px 0px 0px 0px;
+    
+}
+        .footer-right .cellAndEmail ul{
+            list-style: none;
+            line-height: 30px;
+            font-size: 20px;
+        }
+.footer-right .digitalPayment{
+    padding: 20px 0px 0px 0px;
+   font-size: 30px;
+   
+}
+.footer-right .digitalPaymen h2{
+    font-size: 30px;
+}
+.footer-right .digitalPayment i{
+    color: #2b79d3;
+    background-color: #ffffff;
+    margin: 0;
+    border: 3px solid black;
+    border-radius: 5px;
+    font-size: 40px;
+    padding: ;
+}
+.footer-right .digitalPayment i:hover{
+    color: #11489b;
+    background-color: #ffffff;
+} 
+
+
+.footer-bottom{
+    width: 100%;
+    background-color: black;
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    color: white;
+    padding: 10px 0px 0px 0px;
+    height: 9%;
+}
+
+
+
+@media only screen and (max-width: 600px){
+    /* *******************NAV BAR************************** */
+    label.website-name{
+        font-size: 10px;
+    }
+
+    .navbar{
+        position: fixed;
+    }
+    .navbar ul{
+        width: 100%;
+        position: fixed;
+        height: 100vh;
+        background-color: #4c34b8;
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: .5s;
+        z-index: 1;
+    }
+    .navbar ul li{
+        display: block;
+        width: 100%;
+    }
+    .navbar ul li a{
+        color: white;
+        width: 100%;
+        line-height: 50px;
+        font-size: 20px;
+        position: relative;
+    }
+    .navbar ul li a:hover{
+        background-color: transparent;
+        color: #b8b8b8;
+        font-size: 30px;
+    }
+    .navbar ul .menu-copy{
+        display: block;
+        color: white;
+        text-align: center;
+        position: relative;
+        bottom: 0;
+        padding-top: 50vh;
+    }
+    
+    #check{
+        display: none;
+    }
+    #check:checked~ul{
+        left: 0;
+    }
+    
+    
+    
+    .chkbtn{
+        display: block;
+    }
+    /* *******************NAV BAR END************************** */
+}
